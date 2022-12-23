@@ -1,0 +1,116 @@
+html{
+    box-sizing: border-box;
+}
+
+header{
+    margin: auto;
+    width: 80%;
+    background-image: url(https://images.pexels.com/photos/1764702/pexels-photo-1764702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 2px black solid;
+}
+.imagen-perfil{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.imagen-perfil img{
+    width: 60%;
+    border: 1px black solid;
+    border-radius: 50%;
+    
+}
+.titulo{
+    text-align: center;
+    width: 80%;
+}
+
+
+h1{
+    font-size: 48px;
+    
+}
+
+h2{
+    font-size: 36px;
+    margin-bottom: 4px;
+
+}
+h3{
+    font-size: 24px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    
+
+}
+nav{
+    width: 60%;
+    border: 1px rgba(0, 0, 0, 0.4) solid;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.skill{
+    width: 80%;
+}
+
+.hobbies{
+    width: 80%;
+}
+
+section{
+    padding: 4px;
+    background-color: rgb(237, 237, 237);
+}
+
+.descripcion, .proyectos, .educacion, .educacion-complementaria{
+    width: 80%;
+    margin: auto;
+} 
+a{
+    color: green;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    color: rgb(67, 67, 67);
+}
+hr{
+    height: 2px;
+    width: 20%;
+    margin-left: 0;
+    background-color: rgb(72, 72, 72);
+}
+.negrilla{
+    font-weight: 700;
+}
+
+.expectativas{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    border: 2px black solid;
+}
+.p-expectativas{
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+}
